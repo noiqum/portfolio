@@ -78,7 +78,7 @@ function Contact() {
             staggerChildren: "beforeChildren",
           },
         }}
-        initial={{ x: "100%" }}
+        // initial={{ x: "100%" }}
         className={styles.contact}
       >
         <Link href="/">
