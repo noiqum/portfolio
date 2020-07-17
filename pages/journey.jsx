@@ -181,6 +181,9 @@ function Journey() {
       </motion.div>
     </motion.div>
   );
+  {
+    ssr: false;
+  }
 }
 
 export default Journey;
