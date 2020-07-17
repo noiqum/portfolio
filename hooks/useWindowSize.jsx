@@ -2,14 +2,10 @@ import React, { useState, useEffect } from "react";
 
 function useWindowSize() {
   const getSize = () => {
-    if (typeof window !== undefined) {
-      return {
-        width: window.innerWidth,
-        height: window.innerHeight,
-      };
-    } else {
-      return { width: 1500, height: 1200 };
-    }
+    return {
+      width: window.innerWidth,
+      height: window.innerHeight,
+    };
   };
   const [windowSize, setWindowsize] = useState(getSize);
 

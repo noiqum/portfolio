@@ -25,6 +25,7 @@ import Library from "../components/svg/library.svg";
 import Bank from "../components/svg/bank.svg";
 import Master from "../components/svg/master.svg";
 import Manager from "../components/svg/manager.svg";
+import dynamic from "next/dynamic";
 
 const containerVariants = {
   exit: {
@@ -50,7 +51,12 @@ function Journey() {
   let year = useMotionValue(1985);
   const [yearx, setYearx] = useState(1985);
 
-  const window = useWindowSize();
+  const window = dynamic(
+    () => {
+      return useWindowSize();
+    },
+    { ssr: false }
+  );
   const linkHover = {
     color: "peru",
     letterSpacing: "3px",
