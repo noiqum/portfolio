@@ -8,7 +8,7 @@ function useWindowSize() {
         height: window.innerHeight,
       };
     } else {
-      return;
+      return { width: 1500, height: 1200 };
     }
   };
   const [windowSize, setWindowsize] = useState(getSize);
