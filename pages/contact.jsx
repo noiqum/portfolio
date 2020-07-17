@@ -51,7 +51,7 @@ function Contact() {
 
   const links = {
     initial: {
-      x: "100%",
+      x: "300%",
     },
     animate: {
       x: 0,
