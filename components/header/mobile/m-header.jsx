@@ -5,7 +5,7 @@ function MobileHeader({ modeChange }) {
   return (
     <div>
       <div className={styles.switch__wrapper}>
-        <label className={styles.switch__wrapper__label} for="checkbox">
+        <label className={styles.switch__wrapper__label} htmlFor="checkbox">
           <input
             className={styles.switch__wrapper__input}
             type="checkbox"
