@@ -8,8 +8,15 @@ import Linkedin from "../components/svg/linkedin.svg";
 import Github from "../components/svg/github.svg";
 ///components
 import ContactMobile from "../components/mobile/contact/contact-mobile";
+import useWindowSize from "../hooks/useWindowSize";
 
 function Contact() {
+  const window = dynamic(
+    () => {
+      return useWindowSize();
+    },
+    { ssr: false }
+  );
   const [email, setEmail] = useState("onurcoskun99@gmail.com");
   const block = {
     animate: {

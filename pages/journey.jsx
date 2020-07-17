@@ -74,7 +74,7 @@ function Journey() {
       let yy = year.get();
       setYearx(yy);
     };
-    console.log(window.width);
+
     const unsubscribeY = scrollYProgress.onChange(updateScroll);
     return () => {
       unsubscribeY();
