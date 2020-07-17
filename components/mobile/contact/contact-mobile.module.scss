@@ -1,0 +1,10 @@
+@import "../../../css/variables.scss";
+
+.contactMobile {
+  display: none;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    background-color: $navy-3;
+    color: peru;
+  }
+}

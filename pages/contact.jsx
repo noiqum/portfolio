@@ -6,6 +6,8 @@ import styles from "../css/contact.module.scss";
 import Twitter from "../components/svg/twitter.svg";
 import Linkedin from "../components/svg/linkedin.svg";
 import Github from "../components/svg/github.svg";
+///components
+import ContactMobile from "../components/mobile/contact/contact-mobile";
 
 function Contact() {
   const [email, setEmail] = useState("onurcoskun99@gmail.com");

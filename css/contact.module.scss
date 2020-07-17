@@ -1,6 +1,9 @@
 @import "../css/variables.scss";
 
 .contact {
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
   width: 100%;
   height: 100vh;
   display: flex;
@@ -116,9 +119,6 @@
   background-color: $navy-3;
   width: 100vw;
   height: 100vh;
-  @media screen and (max-width: 800px) {
-    display: none;
-  }
 }
 .block2 {
   position: fixed;
@@ -128,9 +128,6 @@
   background-color: $navy-2;
   width: 100vw;
   height: 100vh;
-  @media screen and (max-width: 800px) {
-    display: none;
-  }
 }
 .block3 {
   background-color: $navy-1;
