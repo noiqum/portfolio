@@ -1,0 +1,131 @@
+@import "../css/variables.scss";
+
+.contact {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  background-color: $blue-3;
+  color: #fff;
+
+  & svg {
+    width: 100rem;
+    height: 200rem;
+    display: block;
+    z-index: 1500;
+  }
+
+  & h1 {
+    font-size: 5rem;
+    mix-blend-mode: difference;
+    z-index: 900;
+    text-transform: capitalize;
+
+    @include respond(middle) {
+      font-size: 10rem;
+      margin-top: 10rem;
+    }
+  }
+  &_home,
+  &_portfolio {
+    font-size: 3rem;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    color: $grey-1;
+    text-transform: uppercase;
+  }
+  &_home:hover,
+  &_portfolio:hover {
+    color: #fff;
+  }
+  &_home {
+    left: 20px;
+  }
+  &_portfolio {
+    right: 20px;
+  }
+  &_links {
+    position: relative;
+    & ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      & li {
+        padding: 1rem;
+      }
+    }
+    z-index: 900;
+    margin-top: 5rem;
+
+    & input {
+      background-color: transparent;
+      font-size: 2rem;
+      color: $grey-1;
+      border: none;
+      outline: none;
+    }
+
+    & span {
+      cursor: pointer;
+      margin-left: 5px;
+      background-color: $grey-3;
+      font-size: 1.5rem;
+      padding: 1rem;
+      border-radius: 15px;
+      letter-spacing: 1.5px;
+
+      &:hover {
+        background-color: darken(grey, 0.25);
+        color: #fff;
+      }
+      &:active {
+        transform: translateY(3px);
+      }
+    }
+    & li {
+      list-style: none;
+
+      & a > svg {
+        width: 5rem;
+        height: 5rem;
+        display: block;
+        fill: $grey-3;
+        cursor: pointer;
+
+        &:hover {
+          fill: $grey-1;
+        }
+      }
+    }
+  }
+}
+
+.block,
+.block3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  background-color: $navy-3;
+  width: 100vw;
+  height: 100vh;
+}
+.block2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  background-color: $navy-2;
+  width: 100vw;
+  height: 100vh;
+}
+.block3 {
+  background-color: $navy-1;
+}

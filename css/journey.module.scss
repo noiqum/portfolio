@@ -1,0 +1,170 @@
+@import "../css/variables.scss";
+
+.journey {
+  width: 100%;
+  height: 300vh;
+  background-color: $navy-2;
+  color: white;
+  overflow-x: hidden;
+
+  & nav ul {
+    display: flex;
+    flex-direction: row;
+    height: 12vh;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: $navy-2;
+
+    & li {
+      font-size: 1.6rem;
+      margin: 1rem;
+      list-style: none;
+      padding: 1rem 2rem;
+      cursor: pointer;
+      @include respond(middle) {
+        width: 15rem;
+      }
+    }
+  }
+
+  &__bar {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: $navy-2;
+    position: fixed;
+    top: 12vh;
+    z-index: 60;
+    & p {
+      font-size: 2rem;
+    }
+  }
+
+  &__progress {
+    margin: 2rem;
+    width: 70vw;
+    height: 2rem;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    &__item {
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+      transform-origin: left;
+    }
+
+    & span {
+      margin: 1rem;
+      display: block;
+    }
+  }
+  &__sections {
+    margin-top: 3rem;
+    margin-top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 3rem;
+    flex-direction: column;
+    @include respond(middle) {
+      margin-top: 15%;
+    }
+
+    &:first-child {
+      margin-top: 20rem;
+    }
+  }
+}
+
+.parag,
+.parag2,
+.parag3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2.2rem;
+  padding: 1rem;
+  grid-row: 1/4;
+  grid-column: 2/3;
+  line-height: 1.5;
+  @include respond(middle) {
+    font-size: 5rem;
+    padding: 2rem 4rem;
+  }
+}
+.parag2,
+.parag3 {
+  font-size: 1.6rem;
+  @include respond(middle) {
+    font-size: 2.7rem;
+  }
+}
+
+.baby,
+.university,
+.bank {
+  margin: 1rem;
+  @include respond(middle) {
+    margin-left: 5rem;
+  }
+}
+
+.abc,
+.economics,
+.master {
+  margin: 1rem 1.5rem;
+  @include respond(middle) {
+    margin-left: 10rem;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+}
+
+.student {
+  margin: 1rem 0.5rem;
+  @include respond(middle) {
+    margin-left: 20rem;
+  }
+}
+
+.theater {
+  margin: 1rem 0.5rem;
+  @include respond(middle) {
+    margin-left: 25rem;
+    grid-row: 3/4;
+  }
+}
+.library {
+  margin: 1rem 0.5rem;
+  @include respond(middle) {
+    margin-left: 30rem;
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+}
+
+.manager {
+  margin: 1rem 0.75rem;
+  @include respond(middle) {
+    margin-left: 20rem;
+  }
+}

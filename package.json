@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "framer": "^1.2.3",
+    "framer-motion": "^1.11.1",
+    "gsap": "^3.3.4",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-intersection-observer": "^8.26.2",
+    "sass": "^1.26.9"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^5.4.0"
+  }
+}

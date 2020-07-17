@@ -1,0 +1,86 @@
+@import "../css/variables.scss";
+
+.welcome {
+  display: none;
+  position: relative;
+  @include respond(middle) {
+    font-size: 2rem;
+    letter-spacing: 3px;
+    color: $blue-2;
+    font-size: 5rem;
+    display: block;
+
+    & canvas {
+      position: absolute;
+    }
+  }
+}
+.container,
+.container__dark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
+
+  &__links,
+  &__links__dark {
+    display: none;
+    @include respond(middle) {
+      margin-top: 2rem;
+      display: flex;
+      width: 70%;
+      justify-content: space-around;
+      align-items: baseline;
+      flex-direction: row;
+      text-transform: capitalize;
+
+      & a {
+        font-size: 3rem;
+        text-decoration: none;
+        color: $navy-2;
+        & a {
+          color: $navy-2;
+        }
+      }
+    }
+    @include respond(large) {
+      width: 70%;
+      justify-content: space-evenly;
+    }
+  }
+}
+.blocks {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  margin: 0;
+  pointer-events: none;
+
+  & > div {
+    transform: scaleY(0);
+    background-color: $navy-1;
+    width: 20%;
+  }
+}
+
+.container__dark {
+  background-color: $navy-3;
+  color: $grey-1;
+}
+.container__links__dark {
+  color: $grey-1;
+  & a {
+    color: $grey-1;
+
+    & a {
+      color: $grey-1;
+    }
+  }
+}

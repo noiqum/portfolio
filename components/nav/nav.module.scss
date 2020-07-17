@@ -1,0 +1,13 @@
+@import "../../css/variables.scss";
+
+.nav {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $navy-3;
+  & h1 {
+    color: $grey-1;
+  }
+}

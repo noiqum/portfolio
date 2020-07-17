@@ -1,0 +1,98 @@
+<svg  viewBox="0 0 651 333" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="day">
+<rect id="Rectangle 1" x="6" width="639" height="333" fill="#C4C4C4"/>
+<g id="sky">
+<rect id="sky_2" x="7" width="637" height="188" fill="url(#paint0_radial)"/>
+</g>
+<path id="mountain-back-2" d="M490 136L445 193H644V30L627 60L616 51L577 116L545 111L523 153L490 136Z" fill="#AEC5CE"/>
+<path id="mountain-back-1" d="M45 84L7 131V225L426 232L370 166L351 186L275 131L246 146C236 137.333 215.8 119.8 215 119C214.2 118.2 192.667 133.333 182 141L134 100L84 146L45 84Z" fill="#AEC5CE"/>
+<g id="mountain-1">
+<path id="Vector 1" d="M81 117C67.3333 127.667 33.2 157.8 6 193V283H408L320 206L296 238L231 184L212 199L151 146L128 168L81 117Z" fill="#4764B0" stroke="black"/>
+<path id="Vector 2" d="M87 149L82 121L127 172H107V188L87 208L75 172L87 149Z" fill="#72ADC6"/>
+<path id="Vector 3" d="M138 178L153 148L211 197L194 203L188 218L168 237L138 218L153 197L138 178Z" fill="#72ADC6"/>
+<path id="Vector 4" d="M214 214L232 188L244 222L238 237L232 264L207 250L192 237L214 214Z" fill="#72ADC6"/>
+<path id="Vector 5" d="M269 244L260 211L281 228L300 244L281 254L288 267L281 282L253 262L269 244Z" fill="#72ADC6"/>
+<path id="Vector 6" d="M315 237L320 206L403 282L336 267V251L315 237Z" fill="#72ADC6"/>
+</g>
+<g id="mountain-2">
+<path id="Vector 7" d="M501 175L465 224H645V52L626 108L601 88L593 143C583.667 135.333 572.6 113.6 567 152C561.4 190.4 553 168 540 152L534 196L501 175Z" fill="#5974BB"/>
+<path id="Vector 8" d="M517 198L501 178L468 222L501 209L517 198Z" fill="#72ADC6"/>
+<path id="Vector 9" d="M551 181L541 154L535 199L541 210L551 181Z" fill="#72ADC6"/>
+<path id="Vector 10" d="M581 172V132L566 172L561 202L575 192L581 172Z" fill="#72ADC6"/>
+<path id="Vector 11" d="M613 120L602 90L593 142L602 170L613 120Z" fill="#72ADC6"/>
+<path id="Vector 12" d="M621 129L645 56V161H634L621 129Z" fill="#72ADC6"/>
+</g>
+<g id="tree-2">
+<path id="Polygon 1" d="M32.5 244L49.3875 300.25H15.6125L32.5 244Z" fill="#408B39"/>
+<path id="Polygon 3" d="M72.5 237L89.3875 293.25H55.6125L72.5 237Z" fill="#408B39"/>
+<g id="Polygon 6">
+<path d="M134 296L145.258 320H122.742L134 296Z" fill="#408B39"/>
+<path d="M134 296L145.258 320H122.742L134 296Z" fill="#408B39"/>
+<path d="M134 296L145.258 320H122.742L134 296Z" fill="#408B39"/>
+<path d="M134 296L145.258 320H122.742L134 296Z" fill="#408B39"/>
+<path d="M134 296L145.258 320H122.742L134 296Z" fill="#408B39"/>
+</g>
+<path id="Polygon 21" d="M608.5 178L625.387 234.25H591.613L608.5 178Z" fill="#408B39"/>
+<g id="Polygon 7">
+<path d="M150 283L161.258 307H138.742L150 283Z" fill="#408B39"/>
+<path d="M150 283L161.258 307H138.742L150 283Z" fill="#408B39"/>
+<path d="M150 283L161.258 307H138.742L150 283Z" fill="#408B39"/>
+<path d="M150 283L161.258 307H138.742L150 283Z" fill="#408B39"/>
+<path d="M150 283L161.258 307H138.742L150 283Z" fill="#408B39"/>
+</g>
+<path id="Polygon 15" d="M550.5 266L560.459 311H540.541L550.5 266Z" fill="#408B39"/>
+<g id="Polygon 8">
+<path d="M13 267L24.2583 291H1.74167L13 267Z" fill="#408B39"/>
+<path d="M13 267L24.2583 291H1.74167L13 267Z" fill="#408B39"/>
+<path d="M13 267L24.2583 291H1.74167L13 267Z" fill="#408B39"/>
+<path d="M13 267L24.2583 291H1.74167L13 267Z" fill="#408B39"/>
+<path d="M13 267L24.2583 291H1.74167L13 267Z" fill="#408B39"/>
+</g>
+<path id="Polygon 19" d="M488.5 217L496.727 252.25H480.273L488.5 217Z" fill="#408B39"/>
+<path id="Polygon 14" d="M522 207L541.919 261.75H502.081L522 207Z" fill="#408B39"/>
+</g>
+<g id="tree-3">
+<path id="Polygon 4" d="M94.5 258L111.387 314.25H77.6125L94.5 258Z" fill="#53754A"/>
+<g id="Polygon 9">
+<path d="M72 296L83.2583 320H60.7417L72 296Z" fill="#408B39"/>
+<path d="M72 296L83.2583 320H60.7417L72 296Z" fill="#408B39"/>
+<path d="M72 296L83.2583 320H60.7417L72 296Z" fill="#408B39"/>
+<path d="M72 296L83.2583 320H60.7417L72 296Z" fill="#408B39"/>
+<path d="M72 296L83.2583 320H60.7417L72 296Z" fill="#53754A"/>
+</g>
+<path id="Polygon 13" d="M574 206L593.919 260.75H554.081L574 206Z" fill="#53754A"/>
+<path id="Polygon 22" d="M628 222L647.919 276.75H608.081L628 222Z" fill="#53754A"/>
+<path id="Polygon 11" d="M535.5 252L545.459 297H525.541L535.5 252Z" fill="#53754A"/>
+</g>
+<g id="tree-1">
+<path id="Polygon 2" d="M52.5 258L69.3875 314.25H35.6125L52.5 258Z" fill="#61C858"/>
+<path id="Polygon 5" d="M114.5 258L131.387 314.25H97.6125L114.5 258Z" fill="#61C858"/>
+<path id="Polygon 20" d="M628.5 188L645.387 244.25H611.613L628.5 188Z" fill="#61C858"/>
+<path id="Polygon 10" d="M551 230L570.919 284.75H531.081L551 230Z" fill="#61C858"/>
+<path id="Polygon 16" d="M502.5 223L512.459 268H492.541L502.5 223Z" fill="#61C858"/>
+<path id="Polygon 17" d="M591.5 223L601.459 268H581.541L591.5 223Z" fill="#61C858"/>
+<path id="Polygon 12" d="M521.5 244L529.727 279.25H513.273L521.5 244Z" fill="#91E68A"/>
+<path id="Polygon 18" d="M576.5 244L584.727 279.25H568.273L576.5 244Z" fill="#61C858"/>
+</g>
+<g id="river">
+<path id="river_2" d="M192 314C172.877 281.242 275 332 289 309C303 286 354 296 354 296C354 296 396.96 304.516 407 286C416.717 268.079 371 231 389 237C407 243 443.815 256.548 440 237C437.5 224.19 418.569 228.226 414 216C410.855 207.586 408.049 199.728 414 193C420.728 185.395 430.196 190.359 440 193C451.714 196.155 463.843 198.062 466 210C467.383 217.657 458.992 221.284 460 229C461.224 238.374 472.447 238.898 475 248C476.793 254.392 461 258 475 265C489 272 514.4 289.2 504 302C493.6 314.8 551 327.333 581 332H209C209 332 196.874 322.35 192 314Z" fill="url(#paint1_linear)"/>
+</g>
+<g id="sunlight">
+<ellipse id="sunlight_2" cx="427" cy="148.5" rx="140" ry="121.5" fill="url(#paint2_radial)"/>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(411 76) rotate(89.0978) scale(127.016 430.367)">
+<stop offset="0.0671197" stop-color="#76A7D5"/>
+<stop offset="1" stop-color="#7FBAEF" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="paint1_linear" x1="385.312" y1="188.954" x2="385.312" y2="332" gradientUnits="userSpaceOnUse">
+<stop stop-color="#90A6E0" stop-opacity="0"/>
+<stop offset="0.874167" stop-color="#90A6E0"/>
+</linearGradient>
+<radialGradient id="paint2_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(416.462 148.5) rotate(61.6578) scale(82.4454 100.493)">
+<stop stop-color="#F6FA46"/>
+<stop offset="1" stop-color="#D9D9CA" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

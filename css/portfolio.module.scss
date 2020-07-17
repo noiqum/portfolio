@@ -1,0 +1,199 @@
+@import "./variables.scss";
+
+.portfolio {
+  overflow: hidden;
+
+  & nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & a {
+      text-decoration: none;
+      letter-spacing: 1px;
+      color: $navy-1;
+      text-transform: uppercase;
+      margin: 2rem 3rem;
+      @media screen and (max-width: 300px) {
+        margin: 1rem;
+        font-size: 2rem;
+      }
+
+      &:hover {
+        color: peru;
+      }
+    }
+  }
+  &__projects {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100%;
+    padding: 0 2rem;
+    overflow: hidden;
+    @include respond(middle) {
+      padding: 0 10rem;
+    }
+    @media screen and (max-width: 800px) {
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-columns: 1fr;
+    }
+
+    & > div {
+      overflow: hidden;
+      border: 1px solid $grey-1;
+    }
+    div:nth-of-type(2n) {
+      background-color: $grey-1;
+      & > span {
+        color: $grey-4;
+      }
+    }
+    div:nth-of-type(2n + 1) {
+      background-color: $grey-3;
+      & > span {
+        color: $grey-1;
+      }
+    }
+    div:nth-of-type(1) {
+      border-top-left-radius: 10px;
+    }
+    div:nth-of-type(4) {
+      border-top-right-radius: 10px;
+    }
+    & div:hover {
+      // min-width: 20rem;
+
+      @include respond(middle) {
+        min-width: 50rem;
+      }
+      @media screen and (max-width: 600px) {
+        min-height: 50rem;
+        & > div {
+          min-height: 50rem;
+        }
+      }
+      & span {
+        opacity: 0;
+      }
+    }
+    &__item > div {
+      background-size: cover;
+      width: 40rem;
+      height: 50rem;
+      display: inline-block;
+      background-repeat: no-repeat;
+      opacity: 0;
+      display: grid;
+      grid-template-columns: 80% 20%;
+      @media screen and (max-width: 600px) {
+        height: 10rem;
+      }
+      @media screen and (max-width: 800px) {
+        width: 100%;
+      }
+
+      & > aside {
+        grid-column: 2/3;
+        height: 100%;
+        background-color: $grey-4;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        & > svg {
+          width: 5rem;
+          height: 5rem;
+        }
+        & > a {
+          font-size: 1rem;
+          color: #fff;
+          @include respond(middle) {
+            font-size: 1.6rem;
+            color: #fff;
+          }
+        }
+      }
+    }
+    &__item > span {
+      font-size: 3rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      text-transform: uppercase;
+      margin: 1rem;
+    }
+
+    &__item {
+      position: relative;
+      &__capture_1 {
+        background-image: url("/images/agoras.png");
+        object-fit: cover;
+      }
+    }
+    &__item {
+      &__capture_2 {
+        background-image: url("/images/corner.png");
+        object-fit: cover;
+      }
+    }
+    &__item {
+      &__capture_3 {
+        background-image: url("/images/coder.png");
+        object-fit: cover;
+      }
+    }
+    &__item {
+      &__capture_4 {
+        background-image: url("/images/tracker.png");
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+.header {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & span {
+    font-weight: 600;
+    font-size: 10rem;
+    padding: 3px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    color: $navy-1;
+    @media screen and (max-width: 600px) {
+      font-size: 3rem;
+    }
+    @media screen and (min-width: 601px) and (max-width: 800px) {
+      font-size: 5rem;
+    }
+  }
+  & span::after {
+    position: absolute;
+    content: attr(data-letter);
+    display: inline-block;
+    font-weight: 600;
+    font-size: 10rem;
+    padding: 3px;
+    text-transform: uppercase;
+    top: 0;
+    left: 8px;
+    color: $grey-1;
+    @media screen and (max-width: 600px) {
+      font-size: 3rem;
+      left: 3px;
+    }
+    @media screen and (min-width: 601px) and (max-width: 800px) {
+      font-size: 5rem;
+    }
+  }
+}
