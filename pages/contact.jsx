@@ -12,45 +12,45 @@ import useWindowSize from "../hooks/useWindowSize";
 
 function Contact() {
   const [email, setEmail] = useState("onurcoskun99@gmail.com");
-  // const block = {
-  //   animate: {
-  //     y: ["0%", "100%", "50%"],
-  //     zIndex: [500, 600, 600],
-  //     transition: {
-  //       delay: 5,
-  //       duration: 1.3,
-  //       ease: "easeInOut",
-  //       times: [0, 0.2, 1],
-  //     },
-  //     borderRadius: "25%",
-  //   },
-  // };
-  // const block2 = {
-  //   animate: {
-  //     y: ["0%", "100%", "60%"],
-  //     zIndex: [600, 500, 500],
-  //     transition: {
-  //       delay: 3.5,
-  //       duration: 1.3,
-  //       ease: "easeInOut",
-  //       times: [0, 0.2, 1],
-  //     },
-  //     borderRadius: "25%",
-  //   },
-  // };
-  // const block3 = {
-  //   animate: {
-  //     y: ["0%", "100%", "70%"],
-  //     zIndex: [700, 800, 800],
-  //     transition: {
-  //       delay: 2,
-  //       duration: 1.3,
-  //       ease: "easeInOut",
-  //       times: [0, 0.2, 1],
-  //     },
-  //     borderRadius: "25%",
-  //   },
-  // };
+  const block = {
+    animate: {
+      y: ["0%", "100%", "50%"],
+      zIndex: [500, 600, 600],
+      transition: {
+        delay: 5,
+        duration: 1.3,
+        ease: "easeInOut",
+        times: [0, 0.2, 1],
+      },
+      borderRadius: "25%",
+    },
+  };
+  const block2 = {
+    animate: {
+      y: ["0%", "100%", "60%"],
+      zIndex: [600, 500, 500],
+      transition: {
+        delay: 3.5,
+        duration: 1.3,
+        ease: "easeInOut",
+        times: [0, 0.2, 1],
+      },
+      borderRadius: "25%",
+    },
+  };
+  const block3 = {
+    animate: {
+      y: ["0%", "100%", "70%"],
+      zIndex: [700, 800, 800],
+      transition: {
+        delay: 2,
+        duration: 1.3,
+        ease: "easeInOut",
+        times: [0, 0.2, 1],
+      },
+      borderRadius: "25%",
+    },
+  };
 
   const links = {
     initial: {
@@ -78,7 +78,7 @@ function Contact() {
             staggerChildren: "beforeChildren",
           },
         }}
-        // initial={{ x: "100%" }}
+        initial={false}
         className={styles.contact}
       >
         <Link href="/">
@@ -123,7 +123,7 @@ function Contact() {
             </li>
           </ul>
         </motion.div>
-        {/* <motion.div
+        <motion.div
           variants={block}
           animate="animate"
           initial="initial"
@@ -140,7 +140,7 @@ function Contact() {
           animate="animate"
           initial="initial"
           className={styles.block3}
-        ></motion.div> */}
+        ></motion.div>
       </motion.div>
     </>
   );
